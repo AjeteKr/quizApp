@@ -1,6 +1,6 @@
 # QuizApp
 
-A simple and interactive quiz application built using React.
+A simple and interactive quiz about relationship application built using React.
 
 ## Demo
 
