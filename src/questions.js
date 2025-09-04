@@ -1,152 +1,166 @@
-export default [
-    {
-      id: 'q1',
-      text: 'Can you name my best friends?',
-      answers: [
-        'YOU',
-        'Blerta',
-        'PC and chocolates',
-        'No Pikachu',
-      ],
-    },
-    {
-      id: 'q2',
-      text: 'What was your first impression of me?',
-      answers: [
-        'You seemed shy but incredibly kind and warm',
-        'I thought you were stunning and full of confidence',
-        'You seemd pcicho',
-        'I could tell right away that we’d get along',
-      ],
-    },
-    {
-      id: 'q3',
-      text: 'What is my favorite memory of us together?',
-      answers: [
-        'The first fart',
-        'That road trip where we fucked nonstop',
-        'The day we realized we wanted a future together',
-        ' Our date when everything felt like magic',
-      ],
-    },
-    {
-      id: 'q4',
-      text: 'What’s something you’ve wanted to do together but haven’t yet?',
-      answers: [
-        'By marrying me',
-        'Go on a long international vacation',
-        'Take a dance class together',
-        'Start a shared hobby like cooking or hiking',
-      ],
-    },
-    {
-      id: 'q5',
-      text: 'What do you think is my best quality?',
-      answers: [
-        'Your ability to make me feel seen and heard and loved',
-        'Your sense of dark humor and lightheartedness',
-        'How you stay calm and focused in stressful situations',
-        'Your ability to make me feel loved and fucked',
-      ],
-    },
-    {
-      id: 'q6',
-      text: 'If you had to describe my personality in three words, what would they be?',
-      answers: [
-        'Smart, creative and H',
-        'Playful, smart, and loving',
-        'Adventurous, loyal, and creative',
-        'Confident, kind, and thoughtful',
-      ],
-    },
-    {
-      id: 'q7',
-      text: 'What’s something I do that makes you feel instantly appreciated?',
-      answers: [
-        'When you remember the small details I mention',
-        'The way you support me during tough times',
-        'Your thoughtful surprises or kind words',
-        'When you fuck me and bring chocolate',
-      ],
-    },
-    {
-      id: 'q8',
-      text: 'What do you think is my biggest strength?',
-      answers: [
-        'Your ability to adapt and make the best of any situation',
-        'Your didn`t fuck and compassion toward everyone',
-        'How you never give up on what you believe in',
-        'Your soft and Hard skills',
-      ],
-    },
-    {
-      id: 'q9',
-      text: 'If you could change one thing to make me happier, what would it be?',
-      answers: [
-        'To marry me and give all night my kitty',
-        'Finding ways to give you more time for yourself',
-        'Helping you achieve more balance between work and relaxation',
-        'Encouraging you to chase even your wildest dreams',
-      ],
-    },
-    {
-      id: 'q10',
-      text: 'How would you describe my style?',
-      answers: [
-        'You are wearing just Tom and Jerry and i love it',
-        'Effortlessly chic and authentic to who you are',
-        'Trendy with a touch of originality',
-        'Simple but always sophisticated and polished',
-      ],
-    },
-    {
-      id: 'q11',
-      text: 'What do you think my love language is?',
-      answers: [
-        'Words of Affirmation — i love meaningful conversations',
-        'Acts of Service — small gestures mean a lot to me',
-        'Quality Time — i value being fully present together',
-        'Hugs and Kisses — i love being loved',
-      ],
-    },
-    {
-      id: 'q12',
-      text: 'If I could have any superpower, what do you think I’d choose?',
-      answers: [
-        'The power to marry you ',
-        'Mind-reading to better understand people’s feelings',
-        'The ability to teleport so you could travel instantly',
-        'The power to heal or help others',
-      ],
-    },
-    {
-      id: 'q13',
-      text: 'What’s one food you know I can never resist?',
-      answers: [
-        'You',
-        'Something sweet like a dessert or chocolate',
-        'Stamberry and chocolate',
-        'Pasul',
-      ],
-    },
-    {
-      id: 'q14',
-      text: 'What’s one way I’ve positively impacted your life?',
-      answers: [
-        'You’ve brought a sense of joy and adventure into my life',
-        'You’ve helped me grow into a better, more caring person',
-        'You didnt impact my life',
-        'You’ve taught me to see things from different perspectives',
-      ],
-    },
-    {
-      id: 'q15',
-      text: 'What i want from you?',
-      answers: [
-        'Marring me',
-        'Together night`s',
-        'Sucks',
-        'Chocolate and sex',
-      ],
-    },
-  ];
+// Questions based on the images provided (HTML, CSS, Flexbox, etc.)
+const QUESTIONS = [
+  {
+    text: 'What is CSS?',
+    answers: [
+      'The language of the description of the appearance of the document',
+      'Hypertext markup language',
+      'Programming language',
+    ],
+  },
+  {
+    text: 'Which tag is used to create a block in HTML?',
+    answers: [
+      '<div>',
+      '<block>',
+      '<span>',
+    ],
+  },
+  {
+    text: 'What is a block model?',
+    answers: [
+      'The way the elements are designed on the web page',
+      'Name for a set of CSS rules',
+      'File type',
+    ],
+  },
+  {
+    text: 'Which four parts make the block model?',
+    answers: [
+      'Content',
+      'Border',
+      'Padding',
+      'Margin',
+    ],
+  },
+  {
+    text: 'What CSS property is used to control the external padding of an element?',
+    answers: [
+      'margin',
+      'padding',
+      'border',
+    ],
+  },
+  {
+    text: 'What CSS property is used to control the internal padding of an element?',
+    answers: [
+      'padding',
+      'border',
+      'margin',
+    ],
+  },
+  {
+    text: 'What CSS property is used to control the frame of the element?',
+    answers: [
+      'border',
+      'padding',
+      'margin',
+    ],
+  },
+  {
+    text: 'What is float?',
+    answers: [
+      'A property that allows you to move elements left or right on a web page',
+      'A property that allows you to set transparency to elements',
+      'A property that allows you to resize elements',
+    ],
+  },
+  {
+    text: 'What float value can be used to move an element to the left?',
+    answers: [
+      'left',
+      'right',
+      'center',
+    ],
+  },
+  {
+    text: 'What float value can be used to move an element to the right?',
+    answers: [
+      'right',
+      'left',
+      'center',
+    ],
+  },
+  {
+    text: 'What is FlexBox?',
+    answers: [
+      'CSS layout module designed to simplify the alignment of elements',
+      'A method for creating animations',
+      'File type',
+    ],
+  },
+  {
+    text: 'Which device is used to create a flex container?',
+    answers: [
+      'display: flexible',
+      'display: unit',
+      'display: built-in',
+    ],
+  },
+  {
+    text: 'What makes your content sound?',
+    answers: [
+      'Aligns elements horizontally in flex container',
+      'Aligns elements vertically in flex container',
+      'Manages elements order in flex container',
+    ],
+  },
+  {
+    text: 'What does the align-items connection do?',
+    answers: [
+      'Aligns the values vertically in flex container',
+      'Align elements horizontally in flex container',
+      'Manages elements order in flex container',
+    ],
+  },
+  {
+    text: 'What does a flex-direction connection do?',
+    answers: [
+      'Determines the purpose of the main axis along which the modules are distributed in the flex container',
+      'Manages the direction in the extended axis in flex container',
+      'Manages the elements\' size in a flex container',
+    ],
+  },
+  {
+    text: 'What is the value of the flex direction used to arrange the elements horizontally?',
+    answers: [
+      'row',
+      'column',
+      'row-reverse',
+    ],
+  },
+  {
+    text: 'What is the value of the flex direction used to arrange the elements vertically?',
+    answers: [
+      'column',
+      'row',
+      'row-reverse',
+    ],
+  },
+  {
+    text: 'What does flex wrap property do?',
+    answers: [
+      'Determine how elements are set inside the flex container',
+      'Aligns elements horizontally in flex container',
+      'Aligns elements vertically in flex container',
+    ],
+  },
+  {
+    text: 'What is the value of flex-wrap used for laying items in multiple lines?',
+    answers: [
+      'wrap',
+      'now',
+      'wrap-reverse',
+    ],
+  },
+  {
+    text: 'What does the flex-grow property do?',
+    answers: [
+      'Provides an opportunity to increase the element size if there is free space in the flex container',
+      'Provides an opportunity to assess the element size whether there is no free space in the flex container',
+      'Manages elements order in flex container',
+    ],
+  },
+];
+
+export default QUESTIONS;
